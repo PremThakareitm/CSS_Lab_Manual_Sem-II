@@ -1,0 +1,53 @@
+<!-- Design a web page using CSS (Cascading Style Sheets)
+whichincludes the following:
+1) Use different font, styles:
+In the style definition you define how each selector should work
+(font,color etc.). Then, in the body of your pages, you refer to
+these selectors to activate the styles. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling Example</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif; 
+            color: #333; 
+            background-color: #f0f0f0; 
+            margin: 0;
+            padding: 0; 
+        }
+
+        h1 {
+            font-family: 'Courier New', Courier, monospace; 
+            color: #ff5733;
+            text-align: center; 
+            margin-top: 50px; 
+        }
+
+        p {
+            font-style:normal; 
+            line-height: 1.6; 
+            margin: 20px; 
+        }
+
+        .highlight {
+            background-color: #ffc107;
+            border-radius: 20px;
+            padding: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to CSS Styling Example.</h1>
+
+    <p>This is a paragraph with <span class="highlight">highlighted</span> text.</p>
+
+    <p><em>This is another paragraph with <strong>bold</strong> and italic text.</em></p>
+
+    <p>This is a paragraph with regular text.</p>
+</body>
+</html>
